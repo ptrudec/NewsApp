@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="@color/latest_news_article_background_color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/top_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color"
+        android:fontFamily="sans-serif-black"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="24dp"
+        android:text="@string/search_results"
+        android:textColor="@color/latest_news_title_color"
+        android:textSize="32sp"
+        android:textStyle="normal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/latest_news_article_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="64dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="9sp"
+        android:textColor="@color/latest_news_article_title_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Beijing&apos;s Smoggy Skies Obscure China Slowdown" />
+
+    <TextView
+        android:id="@+id/latest_news_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="7sp"
+        android:textColor="@color/latest_news_text_color"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:text="China’s economy kicked off 2018 strongly—kind of. This latest bump doesn’t look very sustainable, however." />
+
+    <TextView
+        android:id="@+id/latest_news_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/latest_news_time_color"
+        android:textSize="14sp"
+        android:textStyle="normal"
+        tools:text="26 mins ago by The New York Times" />
+</LinearLayout>

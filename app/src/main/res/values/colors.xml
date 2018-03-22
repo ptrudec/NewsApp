@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#673ab7</color>
+    <color name="colorPrimaryDark">#512da8</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#f4f4f4</color>
+    <color name="edit_text_background_color">#FFFFFF</color>
+
+    <color name="headline_title_color">#cccccc</color>
+    <color name="headline_article_title_color">#de000000</color>
+    <color name="headline_source_color">#673ab7</color>
+    <color name="headline_time_color">#de777777</color>
+
+    <color name="latest_news_title_color">#cccccc</color>
+    <color name="latest_news_article_title_color">#de000000</color>
+    <color name="latest_news_text_color">#444444</color>
+    <color name="latest_news_time_color">#de777777</color>
+    <color name="latest_news_source_color">#673ab7</color>
+    <color name="latest_news_article_background_color">#FFFFFF</color>
+</resources>
